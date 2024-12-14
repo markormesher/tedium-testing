@@ -1,4 +1,4 @@
 name: "Always Change Unique File"
 steps:
   - image: "debian:bookworm"
-    command: date -Iseconds > /tedium/repo/chores/always-change-unique-file/test-file
+    command: date -Iseconds > /tedium/repo/chores/always-change-unique-file/$(date | md5sum | cut -f 1)
