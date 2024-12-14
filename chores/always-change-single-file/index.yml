@@ -1,0 +1,4 @@
+name: "Always Change Single File"
+steps:
+  - image: "debian:bookworm"
+    command: echo task > /tedium/repo/chores/always-change-single-file/test-file

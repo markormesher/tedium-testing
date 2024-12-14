@@ -1,0 +1,4 @@
+name: "Fast No-op"
+steps:
+  - image: "debian:bookworm"
+    command: echo done

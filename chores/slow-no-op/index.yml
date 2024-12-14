@@ -1,0 +1,4 @@
+name: "Slow No-op"
+steps:
+  - image: "debian:bookworm"
+    command: sleep 15 && echo done
