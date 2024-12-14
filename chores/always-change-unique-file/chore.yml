@@ -1,4 +1,4 @@
 name: "Always Change Unique File"
 steps:
   - image: "debian:bookworm"
-    command: echo task > /tedium/repo/chores/always-change-unique-file/$(uuidgen)
+    command: date -Iseconds > /tedium/repo/chores/always-change-unique-file/test-file
