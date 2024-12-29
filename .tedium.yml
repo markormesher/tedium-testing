@@ -7,6 +7,3 @@ chores:
     directory: "chores/always-change-single-file"
   - url: "https://github.com/markormesher/tedium-testing"
     directory: "chores/always-change-unique-file"
-
-  - url: "https://github.com/markormesher/tedium-chores"
-    directory: "apply-branch-protection"
